@@ -1,0 +1,30 @@
+/* Navbar CSS Start */
+
+.navbar {
+    background-color: #6366f1;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: white;
+    text-decoration: none !important;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.active {
+    color: white !important;
+    text-decoration: underline;
+}
+
+/* Navbar CSS End */
