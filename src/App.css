@@ -116,3 +116,14 @@
 }
 
 /* Layout 1 CSS End */
+
+/* Layout 2 CSS Start */
+
+.userList {
+    width: 60%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 0.325rem;
+}
+
+/* Layout 2 CSS End */
