@@ -2,7 +2,6 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 
 
-
 const Layout1 = () => {
 
     const { register, formState: { errors }, handleSubmit, reset } = useForm();
@@ -166,5 +165,6 @@ const Layout1 = () => {
         </div>
     );
 };
+
 
 export default Layout1;
