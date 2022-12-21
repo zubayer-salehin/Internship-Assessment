@@ -47,6 +47,7 @@
 }
 
 .registerBox {
+    width: 50%;
     background-color: white;
     padding: 40px;
     border-radius: 0.375rem;
@@ -126,4 +127,63 @@
     border-radius: 0.325rem;
 }
 
+@media only screen and (max-width: 575px) {
+    .userList {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .registerBox {
+        width: 100%;
+    }
+}
+
 /* Layout 2 CSS End */
+
+/* Layout 3 CSS Start */
+
+.item1 {
+    grid-area: card1;
+}
+
+.item2 {
+    grid-area: card2;
+}
+
+.item3 {
+    grid-area: card3;
+}
+
+.item4 {
+    grid-area: card4;
+}
+
+.item5 {
+    grid-area: card5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1f);
+    grid-template-rows: 100px 300px 100px;
+    grid-template-areas:
+        'card1 card1 card1 card1 card1 card1 card1'
+        'card2 card3 card3 card3 card3 card3 card4'
+        'card5 card5 card5 card5 card5 card5 card5';
+    gap: 20px;
+    background-color: white;
+}
+
+.grid-container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #da1d5d;
+    color: white;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+/* Layout 3 CSS End */

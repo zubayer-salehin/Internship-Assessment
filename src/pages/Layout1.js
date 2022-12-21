@@ -31,7 +31,7 @@ const Layout1 = () => {
 
     return (
         <div className='screen-width-height d-flex justify-content-center align-items-center screen-backgroud'>
-            <div className='w-50 shadow-lg registerBox'>
+            <div className='registerBox shadow-lg'>
                 <h4 className='mb-4 text-center'>User Registration</h4>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <>
