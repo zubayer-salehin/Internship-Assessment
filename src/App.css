@@ -28,3 +28,91 @@
 }
 
 /* Navbar CSS End */
+
+/* Layout 1 CSS Start */
+
+.shadow-lg {
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.screen-width-height {
+    width: 100vw;
+    height: calc(100vh - 56px);
+}
+
+.screen-backgroud {
+    background-color: #f3f4f6;
+}
+
+.registerBox {
+    background-color: white;
+    padding: 40px;
+    border-radius: 0.375rem;
+}
+
+[type="text"],
+[type="email"],
+[type="number"],
+[type="date"] {
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 2px solid #e5e7eb;
+    font-size: 1.05rem;
+    outline: none;
+    padding: 6px 10px;
+}
+
+[type="text"]:focus {
+    border: 2px solid #6366f1;
+}
+
+[type="email"]:focus {
+    border: 2px solid #6366f1;
+}
+
+[type="number"]:focus {
+    border: 2px solid #6366f1;
+}
+
+[type="date"]:focus {
+    border: 2px solid #6366f1;
+}
+
+.label {
+    font-size: 1.05rem;
+}
+
+.submitBtnBox {
+    text-align: right;
+    margin-top: 16px;
+}
+
+.submitBtn {
+    width: 25%;
+    padding: 12px 0px;
+    border: 0px;
+    background-color: #6366f1;
+    color: white;
+    border-radius: 0.375rem;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.errorMessage {
+    width: 100%;
+    height: 18px;
+}
+
+.label-alt {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: rgb(244, 50, 50);
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+/* Layout 1 CSS End */
