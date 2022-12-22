@@ -136,6 +136,10 @@
     .registerBox {
         width: 100%;
     }
+
+    .submitBtn {
+        width: 50%;
+    }
 }
 
 /* Layout 2 CSS End */

@@ -21,14 +21,14 @@ const Layout2 = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {allUser.length && allUser.map((user, i) => <tr key={Math.random() * 1000}>
+                            {allUser.length ? allUser.map((user, i) => <tr key={Math.random() * 1000}>
                                 <th>{i + 1}</th>
                                 <td>{user.name}</td>
                                 <td>{user.email}</td>
                                 <td>{user.dateOfBirth}</td>
                                 <td>{user.phone}</td>
                             </tr>
-                            )}
+                            ) : ""}
                         </tbody>
                     </table>
                 </div>
